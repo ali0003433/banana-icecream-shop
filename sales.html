@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class = 'table-container'>
+        <h1>Daily Cookie Sales</h1>
+    <table id="shops-table"></table>
+    </div>
+    <form id="shop-form">
+        <h4>Shop Name</h4>
+        <input required placeholders = "Shop Name" name = 'newShopName'></input>
+        <select>
+            <option>Creepy Cookies</option>
+            <option>CareBear Cookies</option>
+        </select>
+        <h4>Average cookies sold per hour</h4>
+        <input required type = 'number' name = 'cookiesPerHour'></input>
+        <button id = 'submitButton' type='submit'>Submit</button>
+    </form>
+    <div class ='image-container'>
+        <img class = 'cookie-image' src='images/creepycookie.png'>
+    </div>
+    <div class = 'image-container'>
+        <img class = 'cookie-image' src = 'images/crabcookie.png'>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
