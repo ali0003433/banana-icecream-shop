@@ -1,0 +1,65 @@
+.table-container {
+    font-family: 'Lora', serif;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-style: dotted;
+    padding-bottom: 30px;
+    font-variant: small-caps;
+    border-radius: 20px;
+}
+#shops-table {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#shop-form {
+    margin-top: 15px;
+    font-family: 'Lora', serif;
+    background-image: url("img/banana-time.jpg");
+    background-repeat: repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 3px solid black ;
+    color: black;
+    font-style: bold;
+    font-variant: small-caps;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+.input-title {
+    background-color: lightgoldenrodyellow;
+    width: 210px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#input-1 {
+    width: 90px;
+}
+#cust {
+    width: 150px;
+}
+.input{
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#submit-button{
+    display: block;
+    margin-top: 20px;
+    font-style: bold;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+#submit-button:hover {
+    background-color: lightgoldenrodyellow;
+}
