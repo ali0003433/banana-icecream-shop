@@ -6,9 +6,6 @@ let elTable = document.getElementById('shops-table')
 //declare variable that gets the form from html by id
 let elForm = document.getElementById('shop-form')
 
-// let shopName = shopArr[i]
-// let elTableData = document.createElement('td')
-
 //create an object constructor
 let Shop = function(name, location, openTime, closeTime, avgCookie, minCust, maxCust)
 {
@@ -27,11 +24,11 @@ let Shop = function(name, location, openTime, closeTime, avgCookie, minCust, max
     }
 }
 //instantiate new instances of Shop constructor
-let ShopOne = new Shop('Krusty Krab', 'Seattle Center', 10, 19, 3.7, 11, 38)
-let ShopTwo = new Shop('Historic Bites', 'SeaTac Airport', 10, 19, 1.2, 3, 24)
-let ShopThree = new Shop('The modern crustacean', '1st and Pike', 10, 19, 2, 23, 65)
-let ShopFour = new Shop('Simply crab cookies', 'Capitol Hill', 10, 19, 5, 20, 28)
-let ShopFive = new Shop('Queen Crab', 'Alki', 10, 19, 3, 2, 16)
+let ShopOne = new Shop('You scream banana', 'DC', 10, 19, 3.7, 11, 38)
+let ShopTwo = new Shop('Fro-ban', 'DC', 10, 19, 1.2, 3, 24)
+let ShopThree = new Shop('Icy ban-bans', 'Maryland', 10, 19, 2, 23, 65)
+let ShopFour = new Shop('Nanner nogurt', 'Virginia', 10, 19, 5, 20, 28)
+let ShopFive = new Shop('Anana-bay ogurt-yay', 'Virginia', 10, 19, 3, 2, 16)
 
 //push instances of Shop to shopArr
 shopArr.push(ShopOne,ShopTwo,ShopThree,ShopFour,ShopFive)
@@ -52,18 +49,18 @@ function displayTableHeader() {
     //set inner HMTL of head element to string 'Shop Name'
     elNameHeader.innerHTML = 'Shop Name'
     //create and loop through open hours
-    for (let i = 0; i < (ShopOne.totalHours); i++) {
+    for (let i = 10; i < (19); i++) {
         let elTableHeader = document.createElement('th')
         //append newly created table head element to the table head row
         elRow.appendChild(elTableHeader)
         //set inner HTML of the table head to the hour
-        elTableHeader.innerHTML = 'Hour: ' + i
+        elTableHeader.innerHTML = i + ':00'
     }
     let elTotalHeader = document.createElement('th')
     elRow.appendChild(elTotalHeader)
     elTotalHeader.innerHTML = 'Total'
 }
-//define a function that takes each shop's property hourlyCookieAvg and adds one for each hour from 0-8
+//define a function that takes each shop's property hourlyCookieAvg and adds one for each hour 0 to 8
 function displayCookieAvg(shop) {
     //create row for first shop
     let elRow = document.createElement('tr')

@@ -3,32 +3,27 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Sales by the scoop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </head>
 <body>
     <div class = 'table-container'>
-        <h1>Daily Cookie Sales</h1>
+        <h1>Sales by the scoop</h1>
     <table id="shops-table"></table>
     </div>
     <form id="shop-form">
-        <h4>Shop Name</h4>
-        <input required placeholders = "Shop Name" name = 'newShopName'></input>
-        <select>
-            <option>Creepy Cookies</option>
-            <option>CareBear Cookies</option>
-        </select>
-        <h4>Average cookies sold per hour</h4>
-        <input required type = 'number' name = 'cookiesPerHour'></input>
-        <button id = 'submitButton' type='submit'>Submit</button>
+        <h4 id = 'input-1'class = 'input-title'>Shop name</h4>
+        <input class = 'input' required placeholder = "shop name" name = "newShopName"/>
+        <h4 id = 'cust' class = 'input-title'>Minimum customers</h4>
+        <input class = 'input' required placeholder = 'min customers' name = 'minCust'/>
+        <h4 id = 'cust' class = 'input-title'>Maximum customers</h4>
+        <input class = 'input' required placeholder = 'max customers' name = 'maxCust'/>
+        <h4 id = 'input-2' class = 'input-title'>Average scoops sold per hour</h4>
+        <input class = 'input' required placeholder = "average scoops" required type = 'number' name = 'cookiesPerHour'/>
+        <button class = 'input' id = 'submit-button' type='submit'>Submit</button>
     </form>
-    <div class ='image-container'>
-        <img class = 'cookie-image' src='images/creepycookie.png'>
-    </div>
-    <div class = 'image-container'>
-        <img class = 'cookie-image' src = 'images/crabcookie.png'>
-    </div>
 </body>
 <script src="main.js"></script>
 </html>
