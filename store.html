@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+</head>
+<body>
+    <form id = 'store-form'>
+        <fieldset class = 'choose-items'>
+           <label for = "product">Products:</label><br/>
+            <select name = "products" size = "3" id = "product">
+                <option value = "nuggets">Frozen nanner nuggets</option>
+                <option value = "bandana" selected>Bernice The Banana bandana</option>
+                <option value = "spoon">Silver spoon</option>
+                <option value = "bulb">Banana-shaped LED bulbs</option>   
+            </select><br/><br/>
+            <label for = "quant">Quantity:</label><br/>
+            <input type = "number" name = "quantity" id = "quant"/><br/><br/>
+            <label for = "message">Order Notes:</label><br/>
+            <textarea name = "message" rows = "5" cols = "20" id = "message"></textarea>
+        
+       
+        </fieldset>
+        <fieldset class = 'payment'>
+            <label for = "name">Full Name:</label><br/>
+                <input type = "text" name = "fullname" id = "name"><br/><br/>
+            <label for = "address1">Address Line 1:</label><br/>
+                <input type = "text" name = "streetaddress1" id = "address1"><br/><br/>
+            <label for = "address2">Address Line 2:</label><br/>
+                <input type = "text" name = "streetaddress2" id = "address2"><br/><br/>
+            <label for = "city">City:</label><br/>
+                <input type = "text" name = "city" id = "city"><br/><br/>
+            <label for = "state">State/ Province/ Region:</label><br/>
+                <input type = "text" name = "state" id = "state"><br/><br/>
+            <label for = "zip">Zip/ Postal Code:</label><br/>
+                <input type = "text" name = "zipcode" id = "zip"><br/><br/>
+            <label for = "country">Country:</label><br/>
+                <input type = "text" name = "country" id = "country"><br/><br/>
+                <input type = "submit" value = "Submit">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
