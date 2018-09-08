@@ -133,7 +133,7 @@ function displayFooter() {
 let newShopName = elForm.newShopName
 let cookiesPerHour = elForm.cookiesPerHour
 
-//define function called createNewShop to let user create new school with the form
+//define function called createNewShop to let user create new shop with the form
 function createNewShop(event){
     //prevent default method of page refresh
     event.preventDefault()
