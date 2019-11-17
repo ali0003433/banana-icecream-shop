@@ -22,16 +22,16 @@ A site for a chain of banana icecream shops. The featured one is called "You Scr
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 
-2. JS files:
+2. JS files:<br>
 [main](https://github.com/ali0003433/banana-icecream-shop/blob/master/main.js)
 
-3. HTML files:
-[index](https://github.com/ali0003433/banana-icecream-shop/blob/master/index.html)
-[store](https://github.com/ali0003433/banana-icecream-shop/blob/master/store.html)
+3. HTML files: <br>
+[index](https://github.com/ali0003433/banana-icecream-shop/blob/master/index.html) <br>
+[store](https://github.com/ali0003433/banana-icecream-shop/blob/master/store.html) <br>
 [sales](https://github.com/ali0003433/banana-icecream-shop/blob/master/sales.html)
 
-4. CSS files: 
-[main](https://github.com/ali0003433/banana-icecream-shop/blob/master/main.css)
+4. CSS files: <br>
+[main](https://github.com/ali0003433/banana-icecream-shop/blob/master/main.css) <br>
 [external](https://github.com/ali0003433/banana-icecream-shop/blob/master/external.css)
 
 
