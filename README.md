@@ -1,6 +1,7 @@
 # Banana Icecream Shop Site
 
 [Banana Ice Cream shop](https://ali0003433.github.io/banana-icecream-shop/)
+[Sales table](https://ali0003433.github.io/banana-icecream-shop-page/sales.html)
 
 #### -- Project Status: Completed
 
