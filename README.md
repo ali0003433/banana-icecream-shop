@@ -21,7 +21,18 @@ A site for a chain of banana icecream shops. The featured one is called "You Scr
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 
-2. EJS files found [here](https://github.com/ali0003433/book-app/tree/master/views)
+2. JS files:
+[main](https://github.com/ali0003433/banana-icecream-shop/blob/master/main.js)
+
+3. HTML files:
+[index](https://github.com/ali0003433/banana-icecream-shop/blob/master/index.html)
+[store](https://github.com/ali0003433/banana-icecream-shop/blob/master/store.html)
+[sales](https://github.com/ali0003433/banana-icecream-shop/blob/master/sales.html)
+
+4. CSS files: 
+[main](https://github.com/ali0003433/banana-icecream-shop/blob/master/main.css)
+[external](https://github.com/ali0003433/banana-icecream-shop/blob/master/external.css)
+
 
 ## Contact
 * Alyssa Liguori, Alyssa.Liguori@protonmail.com 
